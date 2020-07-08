@@ -1,6 +1,6 @@
+require 'dotenv/load'
 require "petfinder_cli_mod1/version"
 
 module PetfinderCliMod1
-  class Error < StandardError; end
-  # Your code goes here...
+  puts "Hello"  
 end
