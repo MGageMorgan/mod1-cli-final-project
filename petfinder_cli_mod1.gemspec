@@ -32,6 +32,4 @@ Gem::Specification.new do |spec|
   spec.add_dependency "dotenv"
   spec.add_dependency "httparty"
   spec.add_dependency "http"
-  spec.add_dependency "oauth2"
-  spec.add_dependency "oauth2-client"
 end
