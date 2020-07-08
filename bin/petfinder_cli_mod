@@ -1,2 +1,11 @@
 #!/usr/bin/env ruby
-puts "Test"
+require "dotenv/load"
+require "bundler/setup"
+require "pry"
+require 'oauth2'
+require_relative "../lib/petfinder_cli_mod1"
+
+PetfinderCliMod1::CLI.new
+
+PetfinderCliMod1::API.api_public_key
+PetfinderCliMod1::API.auth_token
